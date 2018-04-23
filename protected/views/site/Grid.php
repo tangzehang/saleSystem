@@ -1,0 +1,1 @@
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/site/grid.js"></script>

@@ -1,0 +1,10 @@
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/function.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/store.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/name_store.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/product/store.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/product_in.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/product_add_function.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/product_check.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/product/product_add.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/component.js"></script>
+<script src = "<?php echo Yii::app()->request->baseUrl; ?>/js/stock/stockmain.js"></script>

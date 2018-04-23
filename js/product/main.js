@@ -1,0 +1,46 @@
+Ext.onReady(function(){
+    Ext.QuickTips.init();
+    //catagory_store.load();
+    var usermanage = new Ext.grid.EditorGridPanel({
+        renderTo:document.body,
+        store:product_store,
+        id:'editgrid',
+        autoWidht:true,
+        height:400,
+        clicksToEdit:2,
+        stripeRows:true,
+        sm:sm,
+        resizabel:true,
+        frame:true,
+        loadMask:true,
+        tbar:tbar,
+        bbar:new Ext.PagingToolbar({
+            pageSize: 15,
+            store:product_store,
+            displayInfo:true,
+            displayMsg:'显示 {0}-{1}条记录，共{2}条',
+            emptyMsg:'没有记录'
+        }),
+        columns:col,
+        listeners:{
+            click:function(){
+                var re = usermanage.getSelectionModel().getSelected();
+                if(re)
+                {
+                    if(Ext.get('remove'))
+                        Ext.getCmp('remove').setDisabled(false);
+                }
+            },
+            afteredit:function(a){
+                if(usermanage.getStore().modified.length>0){
+                    if(Ext.get('save'))
+                        Ext.getCmp('save').setDisabled(false);
+                }
+
+            }
+        }
+    });
+
+
+
+})

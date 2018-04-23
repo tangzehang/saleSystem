@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+.add {
+	background:url('../images/add.gif') no-repeat !important;
+}
+.option {
+	background:url('../images/disk.png') no-repeat !important;
+}
+.remove {
+	background:url('../images/delete.gif') no-repeat !important;
+}
+.search {
+	background:url('../images/search.png') no-repeat !important;
+}
+.change {
+	background:url('../images/0537536.gif') no-repeat !important;
+}
+.refresh {
+	background:url('../images/045631468.gif') no-repeat !important;
+}
+.plugin  {
+	background:url('../images/plugin.gif') no-repeat !important;
+}
+.confirm {
+	background:url('../images/confirm.gif') no-repeat !important;
+}
+.cancel{
+	background:url('../images/cancel.gif') no-repeat !important;
+}
+.printer{
+	background:url('../images/printer.png') no-repeat !important;
+}
